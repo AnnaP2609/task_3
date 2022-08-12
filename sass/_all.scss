@@ -40,12 +40,29 @@ input {
   font-size: 15px;
   padding: 15px 20px;
   margin: 15px;
-  width: 320px;
+  width: 120px;
 }
 
 section {
   line-height: 1.5;
   padding: 100px 200px 100px 100px;
+}
+
+.but-a {
+  color: #000000;
+  font-size: $fs-15;
+  font-family: $font;
+}
+
+.button {
+  background: #82f4d3;
+  text-align: center;
+  padding: 15px;
+  width: 145px;
+  border: 0;
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
 }
 
 .tw {
@@ -74,6 +91,25 @@ section {
   background: #151515;
   padding: 15px 16px;
   border-radius: 50%;
+}
+
+.f-tw {
+  color: #61e9c2;
+  margin-right: 40px;
+}
+
+.f-fb {
+  color: #bbbbbb;
+  margin-right: 40px;
+}
+
+.f-g {
+  color: #bbbbbb;
+  margin-right: 40px;
+}
+
+.f-pt {
+  color: #bbbbbb;
 }
 
 
@@ -156,7 +192,7 @@ section {
 }
 
 .pad-bot {
-  padding: 50px 100px 50px 230px;
+  padding: 50px 230px 50px 230px;
 }
 
 .pad-105 {
@@ -343,6 +379,15 @@ section {
   margin-top: 30px;
 }
 
+.but_5 {
+  font-family: $font;
+  padding: 10px 15px;
+  background: $bg-blue;
+  border: 0;
+  font-weight: bold;
+  width: 100px;
+}
+
 .bg:before {
   @include p-abs;
   content: '';
@@ -418,6 +463,11 @@ section {
 .bor {
   box-shadow: 0 0 10px #eeeded;
   border: 10px solid #fff;
+}
+
+.bor-f {
+  width: 200px;
+  box-shadow: 0 0 10px #eeeded;
 }
 
 .bor_2 {
@@ -530,6 +580,16 @@ section {
 }
 
 .footer a{
+  font-family: $font;
+  font-size: $fs-15;
+  color: $color-d-white;
+}
+
+.fl-r {
+  float: right;
+}
+
+.footer {
   font-family: $font;
   font-size: $fs-15;
   color: $color-d-white;
